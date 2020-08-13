@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="210dp"
+        android:layout_height="144dp"
+        android:src="@drawable/text1"/>
+
+    <ImageView
+        android:layout_marginTop="253dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="248dp"
+        android:layout_height="54dp"
+        android:src="@drawable/text2"/>
+
+    <TextView
+        android:layout_marginTop="357dp"
+        android:layout_marginLeft="31dp"
+        android:layout_width="159dp"
+        android:layout_height="81dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="더 안전하고\n더 저렴한\n영양제를 만나보세요!"
+        />
+
+    <ImageView
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="145dp"
+        android:layout_width="215dp"
+        android:layout_height="211dp"
+        android:src="@drawable/group_25"
+        />
+
+
+    <Button
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="135dp"
+        android:layout_height="55dp"
+        android:text="나가기"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_custom_button5"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/pharmacy_connect"
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="177dp"
+        android:layout_width="203dp"
+        android:layout_height="55dp"
+        android:text="약국 연결하기"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_custom_button4"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageView
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/survey_bar"/>
+
+
+
+</RelativeLayout>

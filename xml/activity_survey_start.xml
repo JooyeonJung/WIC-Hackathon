@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="190dp"
+        android:layout_height="108dp"
+        android:src="@drawable/text4"/>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:src="@drawable/invalid_name"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:text="간단하게 체크하고\n필요한 영양성분을 알아보세요."/>
+
+
+    <TextView
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="31dp"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:text="회원가입시 입력해주신\nBMI를 고려하여 결과가 산출됩니다."
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:text="시작하기"
+        android:textSize="18sp"
+        android:textColor="#00c853"
+        android:background="@drawable/bg_custom_button6"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageView
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/survey_bar"/>
+
+
+
+</FrameLayout>

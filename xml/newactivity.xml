@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageButton
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="29dp"
+        android:id="@+id/btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/back"/>
+
+    <TextView
+        android:text="약국선택"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="180dp"
+        android:layout_width="59dp"
+        android:layout_height="24dp" />
+
+
+
+    <ImageView
+        android:layout_marginTop="107dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="350dp"
+        android:layout_height="260dp"
+        android:src="@drawable/square"
+        android:background="@drawable/square_shadow"
+        />
+
+    <TextView
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="63.5dp"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:text="찰떡궁합약국"
+        android:textSize="23sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_marginTop="176dp"
+        android:layout_marginLeft="63.5dp"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:text="방문이력 1회"
+        android:textSize="11sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_custom_button"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_marginTop="176dp"
+        android:layout_marginLeft="153.5dp"
+        android:layout_width="63dp"
+        android:layout_height="24dp"
+        android:text="최단 거리"
+        android:textSize="11sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_custom_button2"
+        style="?android:attr/borderlessButtonStyle"/>
+    
+    <ImageView
+        android:layout_marginTop="219dp"
+        android:layout_marginLeft="68.5dp"
+        android:layout_width="12dp"
+        android:layout_height="14dp"
+        android:src="@drawable/map_pin2" />
+
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="89.5dp"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="도보 5분"
+        android:textSize="14sp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_marginTop="266dp"
+        android:layout_marginLeft="67.5dp"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/phone" />
+
+    <TextView
+        android:layout_marginTop="238dp"
+        android:layout_marginLeft="89.5dp"
+        android:layout_width="163dp"
+        android:layout_height="17dp"
+        android:text="서울특별시 용산구 청파로 47길 100"
+        android:textSize="11sp"
+        android:textColor="#858585"/>
+
+    <TextView
+        android:layout_marginTop="262dp"
+        android:layout_marginLeft="89.5dp"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text="02 - 123 - 4567"
+        android:textSize="14sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="297dp"
+        android:layout_marginLeft="67.5dp"
+        android:layout_width="156dp"
+        android:layout_height="27dp"
+        android:text="영업시간 10:00 - 19:00"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:paddingLeft="9dp"
+        android:drawableLeft="@drawable/drawable_time_icon"
+        android:gravity="center"
+        android:background="@drawable/bg_custom_button3" />
+
+    <TextView
+        android:layout_marginTop="392dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="272dp"
+        android:layout_height="20dp"
+        android:text="약사님께 남길 1:1 메세지가 있다면 적어주세요."
+        android:textSize="14sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_marginTop="427dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="320dp"
+        android:layout_height="148dp"
+        android:lines="10"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:maxLines="15"
+        android:textSize="14sp"
+        android:background="@drawable/rounded_border_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:hint="1:1 메세지를 기입해주세요."
+        />
+
+    <Button
+        android:id="@+id/pharmacy_connect2"
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:text="약사님께 전달"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_custom_button4"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</RelativeLayout>

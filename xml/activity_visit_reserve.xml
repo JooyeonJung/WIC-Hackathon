@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorWhite"
+    >
+
+    <ImageButton
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="29dp"
+        android:id="@+id/btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/back"/>
+
+    <TextView
+        android:text="약국선택"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="180dp"
+        android:layout_width="59dp"
+        android:layout_height="24dp" />
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="190dp"
+        android:layout_height="108dp"
+        android:src="@drawable/text5"/>
+
+    <TextView
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="178dp"
+        android:layout_height="24dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:text="소분 일 수를 선택해주세요."/>
+    
+    <Button
+        android:id="@+id/day15"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:text="15일"
+        android:textColor="#00c853"
+        android:background="@drawable/bg_custom_button6"/>
+
+    <Button
+        android:id="@+id/day30"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="160dp"
+        android:text="30일"
+        android:textSize="18sp"
+        android:textColor="#858585"
+        android:background="@drawable/bg_custom_button7"/>
+
+    <Button
+        android:id="@+id/day60"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="290dp"
+        android:textSize="18sp"
+        android:text="60일"
+        android:textColor="#858585"
+        android:background="@drawable/bg_custom_button7"/>
+
+    <TextView
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="24dp"
+        android:textSize="16sp"
+        android:text="총액을 확인하세요."
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="20,400"
+        android:textColor="#00c853"/>
+
+    <TextView
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="36sp"
+        android:text="원"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="292dp"
+        android:layout_height="36dp"
+        android:textSize="12sp"
+        android:text="대한민국 피로 솔루션 피로날린 한 통 가격인 24,000원보다 저렴하게 세가지의 영양제를 즐길 수 있어요. "
+        android:textColor="#858585"/>
+
+    <TextView
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="189dp"
+        android:layout_height="24dp"
+        android:textSize="16sp"
+        android:text="방문 예약일을 선택해주세요."
+        android:textColor="#000000"/>
+
+        />
+
+    <com.vivekkaushik.datepicker.DatePickerTimeline
+        android:id="@+id/datePickerTimeline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:text="예약 완료"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_custom_button4"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageView
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/survey_bar"/>
+
+
+
+</RelativeLayout>
